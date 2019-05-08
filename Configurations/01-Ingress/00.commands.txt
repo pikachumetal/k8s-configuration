@@ -1,0 +1,2 @@
+helm install stable/nginx-ingress --name nginx-ingress --namespace kube-system -f values.yaml
+helm del --purge nginx-ingress

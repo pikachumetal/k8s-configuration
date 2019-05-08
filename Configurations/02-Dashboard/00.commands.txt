@@ -1,0 +1,3 @@
+helm install stable/kubernetes-dashboard --name kubernetes-dashboard --namespace kube-system -f values.yaml
+helm delete kubernetes-dashboard --purge
+# https://stackoverflow.com/questions/46664104/how-to-sign-in-kubernetes-dashboard
